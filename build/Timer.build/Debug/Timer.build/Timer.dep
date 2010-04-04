@@ -1,0 +1,14 @@
+c152c750dd10cedc8b84c4d2535d99a9 fc812bd70bd0c62ddfc772e904c56b41 ffffffffffffffffffffffffffffffff 16712 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/Timer.o
+c152c750dd10c98e8b84c4d2535d9bd9 1bc23c4bd02560ab0ed43fb3fa1594f1 ffffffffffffffffffffffffffffffff 15228 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o
+c152c75096a7b6308b84c4d2535d9b7c 4c8fa7f965b477b35361c51570de7d88 ffffffffffffffffffffffffffffffff 4844 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o
+63ed6b0fbfdb0c81cfa50483d70d9e2d c5129d01b44408718f6cb321d38880b5 ffffffffffffffffffffffffffffffff 102 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app
+6a9e77352842bdc909f64c9ddd53be3a ffb2a58d42375a9d8c5aea25b505be45 ffffffffffffffffffffffffffffffff 19260 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer
+000000000b73d5d60000000000000168 c152c75096a7b6308b84c4d2535d9b07 ffffffffffffffffffffffffffffffff 38311916 /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch
+000000004bb7dc6d000000000002eb45 88f2590ab853eb89938e1f2cb4e818a0 ffffffffffffffffffffffffffffffff 37127 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004bb77fbe000000000000002d 7e33e0bd6dfda38fd987bd170bb16d9a ffffffffffffffffffffffffffffffff 92 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 72466da7038ed202a0ad278eb4541966 ffffffffffffffffffffffffffffffff 8 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/PkgInfo
+00000000000000000000000000000000 72466da7038ed202a0ad278eb4541966 ffffffffffffffffffffffffffffffff 880 /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist
+ffffffffffffffffffffffffffffffff bbbe11c283bf1bab515200a8604bc2d9 ffffffffffffffffffffffffffffffff 0 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/StaticAnalyzer/normal/i386/Timer.plist
+601597ab65449f302f507001b21359b5 af2b18b6dc519d932cbaf8ad2919e3ca ffffffffffffffffffffffffffffffff 276 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/StaticAnalyzer/normal/i386/TimerAppDelegate.plist
+601597ab2ef3e08e2f507001b2135910 2a50d27775fc451d562ec75cf1a7e1fd ffffffffffffffffffffffffffffffff 276 /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/StaticAnalyzer/normal/i386/main.plist
+000000000b73d5d60000000000000168 601597ab2ef3e08e2f507001b213596b ffffffffffffffffffffffffffffffff 9697296 /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-arfnfvfqukyxzcgvzhuljargnxmf/Timer_Prefix.pch.pth
