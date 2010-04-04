@@ -72,17 +72,16 @@
 	};
 	22698CB41167B82000D8AD1B /* Timer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {523, 570}}";
-			sepNavSelRange = "{174, 0}";
-			sepNavVisRange = "{65, 924}";
+			sepNavIntBoundsRect = "{{0, 0}, {891, 630}}";
+			sepNavSelRange = "{1201, 0}";
+			sepNavVisRange = "{28, 890}";
 			sepNavWindowFrame = "{{170, 407}, {581, 598}}";
 		};
 	};
-	22698D44116804D700D8AD1B /* XCBuildMessageTextBookmark */ = {
+	22698D44116804D700D8AD1B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "'addTimeInterval:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:27)";
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 20;
 		rType = 1;
@@ -119,7 +118,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 0;
@@ -129,7 +128,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 0;
@@ -139,7 +138,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 0;
@@ -149,7 +148,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 0;
@@ -159,7 +158,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 0;
@@ -169,16 +168,15 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 30";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 0;
 	};
-	22698DB41168120500D8AD1B /* XCBuildMessageTextBookmark */ = {
+	22698DB41168120500D8AD1B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Passing argument 1 of 'setHidden:' makes integer from pointer without a cast";
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 15;
 		rType = 1;
@@ -188,7 +186,7 @@
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
 		name = "Timer.m: 38";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 145;
@@ -210,11 +208,10 @@
 		vrLen = 510;
 		vrLoc = 0;
 	};
-	22698DC71168131C00D8AD1B /* XCBuildMessageTextBookmark */ = {
+	22698DC71168131C00D8AD1B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "No declaration of property 'startButton' found in the interface";
 		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 12;
 		rType = 1;
@@ -249,6 +246,73 @@
 		vrLen = 844;
 		vrLoc = 145;
 	};
+	22B6E89E11690D37003BF038 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'timer'";
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 31;
+		rType = 1;
+	};
+	22B6E89F11690D37003BF038 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		name = "Timer.m: 32";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 297;
+	};
+	22B6E8A111690D38003BF038 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		name = "Timer.m: 32";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 297;
+	};
+	22B6E8C2116910BB003BF038 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '-setUpTimerObject:' not found";
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 42;
+		rType = 1;
+	};
+	22B6E8C3116910BB003BF038 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		name = "Timer.m: 37";
+		rLen = 0;
+		rLoc = 1234;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 253;
+	};
+	22B6E8E311691670003BF038 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'timerforMode' undeclared (first use in this function)";
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 25;
+		rType = 1;
+	};
+	22B6E8E411691670003BF038 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22698CB41167B82000D8AD1B /* Timer.m */;
+		name = "Timer.m: 42";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 28;
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 22698C981167B73E00D8AD1B /* Timer */;
@@ -263,28 +327,35 @@
 			22698C981167B73E00D8AD1B /* Timer */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 292009790;
-			PBXWorkspaceStateSaveDate = 292009790;
+			PBXPerProjectTemplateStateSaveDate = 292096900;
+			PBXWorkspaceStateSaveDate = 292096900;
 		};
 		perUserProjectItems = {
-			22698D44116804D700D8AD1B /* XCBuildMessageTextBookmark */ = 22698D44116804D700D8AD1B /* XCBuildMessageTextBookmark */;
-			22698D45116804D700D8AD1B /* PBXTextBookmark */ = 22698D45116804D700D8AD1B /* PBXTextBookmark */;
-			22698D9011680FDD00D8AD1B /* PBXTextBookmark */ = 22698D9011680FDD00D8AD1B /* PBXTextBookmark */;
-			22698D9111680FDD00D8AD1B /* PBXTextBookmark */ = 22698D9111680FDD00D8AD1B /* PBXTextBookmark */;
-			22698DA4116810AD00D8AD1B /* PBXTextBookmark */ = 22698DA4116810AD00D8AD1B /* PBXTextBookmark */;
-			22698DA5116810AD00D8AD1B /* PBXTextBookmark */ = 22698DA5116810AD00D8AD1B /* PBXTextBookmark */;
-			22698DAB116810C500D8AD1B /* PBXTextBookmark */ = 22698DAB116810C500D8AD1B /* PBXTextBookmark */;
-			22698DAC116810C500D8AD1B /* PBXTextBookmark */ = 22698DAC116810C500D8AD1B /* PBXTextBookmark */;
-			22698DB1116810E500D8AD1B /* PBXTextBookmark */ = 22698DB1116810E500D8AD1B /* PBXTextBookmark */;
-			22698DB31168114E00D8AD1B /* PBXTextBookmark */ = 22698DB31168114E00D8AD1B /* PBXTextBookmark */;
-			22698DB41168120500D8AD1B /* XCBuildMessageTextBookmark */ = 22698DB41168120500D8AD1B /* XCBuildMessageTextBookmark */;
-			22698DB51168120500D8AD1B /* PBXTextBookmark */ = 22698DB51168120500D8AD1B /* PBXTextBookmark */;
-			22698DC4116812C200D8AD1B /* PBXTextBookmark */ = 22698DC4116812C200D8AD1B /* PBXTextBookmark */;
-			22698DC5116812C200D8AD1B /* PBXTextBookmark */ = 22698DC5116812C200D8AD1B /* PBXTextBookmark */;
-			22698DC71168131C00D8AD1B /* XCBuildMessageTextBookmark */ = 22698DC71168131C00D8AD1B /* XCBuildMessageTextBookmark */;
-			22698DC81168131C00D8AD1B /* PBXTextBookmark */ = 22698DC81168131C00D8AD1B /* PBXTextBookmark */;
-			22698DC91168131D00D8AD1B /* PBXTextBookmark */ = 22698DC91168131D00D8AD1B /* PBXTextBookmark */;
-			22698DCA1168131E00D8AD1B /* PBXTextBookmark */ = 22698DCA1168131E00D8AD1B /* PBXTextBookmark */;
+			22698D44116804D700D8AD1B = 22698D44116804D700D8AD1B /* PBXTextBookmark */;
+			22698D45116804D700D8AD1B = 22698D45116804D700D8AD1B /* PBXTextBookmark */;
+			22698D9011680FDD00D8AD1B = 22698D9011680FDD00D8AD1B /* PBXTextBookmark */;
+			22698D9111680FDD00D8AD1B = 22698D9111680FDD00D8AD1B /* PBXTextBookmark */;
+			22698DA4116810AD00D8AD1B = 22698DA4116810AD00D8AD1B /* PBXTextBookmark */;
+			22698DA5116810AD00D8AD1B = 22698DA5116810AD00D8AD1B /* PBXTextBookmark */;
+			22698DAB116810C500D8AD1B = 22698DAB116810C500D8AD1B /* PBXTextBookmark */;
+			22698DAC116810C500D8AD1B = 22698DAC116810C500D8AD1B /* PBXTextBookmark */;
+			22698DB1116810E500D8AD1B = 22698DB1116810E500D8AD1B /* PBXTextBookmark */;
+			22698DB31168114E00D8AD1B = 22698DB31168114E00D8AD1B /* PBXTextBookmark */;
+			22698DB41168120500D8AD1B = 22698DB41168120500D8AD1B /* PBXTextBookmark */;
+			22698DB51168120500D8AD1B = 22698DB51168120500D8AD1B /* PBXTextBookmark */;
+			22698DC4116812C200D8AD1B = 22698DC4116812C200D8AD1B /* PBXTextBookmark */;
+			22698DC5116812C200D8AD1B = 22698DC5116812C200D8AD1B /* PBXTextBookmark */;
+			22698DC71168131C00D8AD1B = 22698DC71168131C00D8AD1B /* PBXTextBookmark */;
+			22698DC81168131C00D8AD1B = 22698DC81168131C00D8AD1B /* PBXTextBookmark */;
+			22698DC91168131D00D8AD1B = 22698DC91168131D00D8AD1B /* PBXTextBookmark */;
+			22698DCA1168131E00D8AD1B = 22698DCA1168131E00D8AD1B /* PBXTextBookmark */;
+			22B6E89E11690D37003BF038 /* XCBuildMessageTextBookmark */ = 22B6E89E11690D37003BF038 /* XCBuildMessageTextBookmark */;
+			22B6E89F11690D37003BF038 /* PBXTextBookmark */ = 22B6E89F11690D37003BF038 /* PBXTextBookmark */;
+			22B6E8A111690D38003BF038 /* PBXTextBookmark */ = 22B6E8A111690D38003BF038 /* PBXTextBookmark */;
+			22B6E8C2116910BB003BF038 /* XCBuildMessageTextBookmark */ = 22B6E8C2116910BB003BF038 /* XCBuildMessageTextBookmark */;
+			22B6E8C3116910BB003BF038 /* PBXTextBookmark */ = 22B6E8C3116910BB003BF038 /* PBXTextBookmark */;
+			22B6E8E311691670003BF038 /* XCBuildMessageTextBookmark */ = 22B6E8E311691670003BF038 /* XCBuildMessageTextBookmark */;
+			22B6E8E411691670003BF038 /* PBXTextBookmark */ = 22B6E8E411691670003BF038 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 22698CAE1167B75200D8AD1B /* Source Control */;
 		userBuildSettings = {

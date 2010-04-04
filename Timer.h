@@ -14,11 +14,13 @@
     NSTextField *timeField;
     NSButton *startButton;
     NSTextField *done;
+    NSTimer *timer;
 }
 @property (assign) NSDate *endTime;
 @property (assign) IBOutlet NSTextField *timeField;
 @property (assign) IBOutlet NSButton *startButton;
 @property (assign) IBOutlet NSTextField *done;
+@property (nonatomic, retain) NSTimer * timer;
 
 -(IBAction) startTimer:(id)sender;
 @end

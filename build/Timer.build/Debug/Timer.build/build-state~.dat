@@ -1,196 +1,0 @@
-TTimer
-v7
-r0
-t292009809.585555
-cCheck dependencies
-cProcessInfoPlistFile /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist Timer-Info.plist
-cCopyStringsFile /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch Timer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o /Users/sam/Builds/Obj-C/Timer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o /Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer normal i386
-cTouch /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004ABBF0FD00000000000000EE
-t1253830909
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/sam/Builds/Obj-C/Timer/English.lproj/InfoPlist.strings
-c000000004BB77FBE000000000000002D
-t1270316990
-s45
-
-N/Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib
-c000000004BB77FBE000000000002BB55
-t1270316990
-s179029
-
-N/Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.h
-c000000004BB77FBE0000000000000130
-t1270316990
-s304
-i<Cocoa/Cocoa.h>
-
-N/Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m
-c000000004BB77FBE0000000000000163
-t1270316990
-s355
-i"TimerAppDelegate.h"
-
-N/Users/sam/Builds/Obj-C/Timer/Timer_Prefix.pch
-c000000004BB77FBE000000000000008D
-t1270316990
-s141
-i<Cocoa/Cocoa.h>
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app
-t1270317009
-s102
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist
-t1270317003
-s880
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer
-t1270317009
-s13712
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/PkgInfo
-t1270317003
-s8
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1270317003
-s92
-
-N/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/MainMenu.nib
-t1270317004
-s34347
-
-N/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/Timer.LinkFileList
-c000000004BB77FCA00000000000000C6
-t1270317002
-s198
-
-N/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o
-t1270317009
-s15228
-
-N/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o
-t1270317009
-s4844
-
-N/Users/sam/Builds/Obj-C/Timer/main.m
-c000000004BB77FBE00000000000000F6
-t1270316990
-s246
-i<Cocoa/Cocoa.h>
-
-N/var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch
-t1270317008
-s38311916
-
-NTimer-Info.plist
-c000000004BB77FBE00000000000003EA
-t1270316990
-s1002
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies292009802#292009803#0(0"0(0#1#0"2457382944#0"0#
-
-CCompileC build/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o /Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292009809.163657
-e292009809.393744
-r1
-xCompileC
-xbuild/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o
-x/Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m292009809#292009809#0(0"0(0#0#48"/Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m2457382944#1329"    cd /Users/sam/Builds/Obj-C/Timer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-generated-files.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-own-target-headers.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-all-target-headers.hmap -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-project-headers.hmap -F/Users/sam/Builds/Obj-C/Timer/build/Debug -I/Users/sam/Builds/Obj-C/Timer/build/Debug/include -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources/i386 -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources -include /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch -c /Users/sam/Builds/Obj-C/Timer/TimerAppDelegate.m -o /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/TimerAppDelegate.o0#
-
-CCompileC build/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o /Users/sam/Builds/Obj-C/Timer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292009809.088433
-e292009809.458320
-r1
-xCompileC
-xbuild/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o
-x/Users/sam/Builds/Obj-C/Timer/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@44"Compile /Users/sam/Builds/Obj-C/Timer/main.m292009809#292009809#0(0"0(0#0#36"/Users/sam/Builds/Obj-C/Timer/main.m2457382944#1305"    cd /Users/sam/Builds/Obj-C/Timer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-generated-files.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-own-target-headers.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-all-target-headers.hmap -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-project-headers.hmap -F/Users/sam/Builds/Obj-C/Timer/build/Debug -I/Users/sam/Builds/Obj-C/Timer/build/Debug/include -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources/i386 -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources -include /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch -c /Users/sam/Builds/Obj-C/Timer/main.m -o /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib
-s292009803.102351
-e292009804.436400
-r1
-xCompileXIB
-x/Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292009803#292009804#0(0"0(0#0#56"/Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib2457382944#298"    cd /Users/sam/Builds/Obj-C/Timer    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/MainMenu.nib /Users/sam/Builds/Obj-C/Timer/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s292009803.101095
-e292009803.670551
-r1
-xCopyStringsFile
-x/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings292009803#292009803#0(0"0(0#0#61"/Users/sam/Builds/Obj-C/Timer/English.lproj/InfoPlist.strings2457382944#345"    cd /Users/sam/Builds/Obj-C/Timer    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Resources/English.lproj0#
-
-CLd /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer normal i386
-s292009809.458457
-e292009809.581503
-r1
-xLd
-x/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer
-xnormal
-xi386
-lSLF07#2@77"Link /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer292009809#292009809#0(0"0(0#0#0"2457382944#483"    cd /Users/sam/Builds/Obj-C/Timer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sam/Builds/Obj-C/Timer/build/Debug -F/Users/sam/Builds/Obj-C/Timer/build/Debug -filelist /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Objects-normal/i386/Timer.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/MacOS/Timer0#
-
-CProcessInfoPlistFile /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist Timer-Info.plist
-s292009803.032890
-e292009803.100957
-r1
-xProcessInfoPlistFile
-x/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist
-xTimer-Info.plist
-lSLF07#2@24"Process Timer-Info.plist292009803#292009803#0(0"0(0#0#46"/Users/sam/Builds/Obj-C/Timer/Timer-Info.plist2457382944#277"    cd /Users/sam/Builds/Obj-C/Timer    builtin-infoPlistUtility Timer-Info.plist -genpkginfo /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch Timer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s292009804.436557
-e292009809.088194
-r1
-xProcessPCH
-x/var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch
-xTimer_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Timer_Prefix.pch292009804#292009809#0(0"0(0#0#46"/Users/sam/Builds/Obj-C/Timer/Timer_Prefix.pch2457382944#1224"    cd /Users/sam/Builds/Obj-C/Timer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-generated-files.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-own-target-headers.hmap -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-all-target-headers.hmap -iquote /Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/Timer-project-headers.hmap -F/Users/sam/Builds/Obj-C/Timer/build/Debug -I/Users/sam/Builds/Obj-C/Timer/build/Debug/include -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources/i386 -I/Users/sam/Builds/Obj-C/Timer/build/Timer.build/Debug/Timer.build/DerivedSources -c /Users/sam/Builds/Obj-C/Timer/Timer_Prefix.pch -o /var/folders/BR/BRjxPfntG64HZckWta4LR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timer_Prefix-eawscymonycerxgdgjydrydliwxo/Timer_Prefix.pch.gch0#
-
-CTouch /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app
-s292009809.581622
-e292009809.585504
-r1
-xTouch
-x/Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app
-lSLF07#2@57"Touch /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app292009809#292009809#0(0"0(0#0#0"2457382944#111"    cd /Users/sam/Builds/Obj-C/Timer    /usr/bin/touch -c /Users/sam/Builds/Obj-C/Timer/build/Debug/Timer.app0#
-
