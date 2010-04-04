@@ -10,18 +10,18 @@
 
 
 @implementation Timer
-@synthesize endTime,timeField,startButton,done,timer;
+@synthesize timeField,startButton,done,timer;
 
 -(IBAction) startTimer:(id)sender {
     NSLog(@"Started Timer");
 // Set Time Interval from Text Field
-    NSTimeInterval time = [self.timeField doubleValue];
+    NSTimeInterval time = 60 * [self.timeField doubleValue];
 // Set up Timer
-    timer = [NSTimer timerWithTimeInterval:(time) target:self selector:@selector(setDoneLabel) userInfo:nil repeats:NO];
+    timer = [NSTimer timerWithTimeInterval:(time) target:self selector:@selector(setDone) userInfo:nil repeats:NO];
 // Add Timer to RunLoop and Start it
     [[NSRunLoop mainRunLoop] addTimer: timer forMode: NSDefaultRunLoopMode];
 }
--(void) setDoneLabel {
+-(void) setDone {
 // Show User the timer is done
     [self.done setStringValue:@"Done"];
     NSLog(@"Finished Timer");
