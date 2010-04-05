@@ -1,9 +1,9 @@
 //
 //  main.m
-//  overlay_view_alternate
+//  TeaTimer
 //
-//  Created by Simon Wolf on 12/02/2010.
-//  Copyright Otter Software Ltd 2010. All rights reserved.
+//  Created by Sam Gwydir on 4/5/10.
+//  Copyright 2010 Gwydir Software. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

@@ -11,7 +11,7 @@
 #import "OTSOverlayView.h"
 
 @implementation Timer
-@synthesize timeField,startButton,timer,time;
+@synthesize timeField,startButton,timer,time,speaker;
 
 -(IBAction) startTimer:(id)sender {
 // Set Time Interval from Text Field
@@ -26,14 +26,17 @@
 // Show User the timer is done
     NSLog(@"Finished Timer for %f seconds",time);
 // Init Speaker with the default voice
-    NSSpeechSynthesizer *speaker = [[NSSpeechSynthesizer alloc] initWithVoice:nil];
-    [speaker startSpeakingString:@"Tea is Done"];
-    [speaker release];
-    [overlayView displayUsingPixelRadiusBlur:1.0
+    [self.speaker startSpeakingString:@"Tea is Done"];
+    [self.speaker release];
+// Overlay transparent view with "Tea is Done"
+    [overlayView displayUsingPixelRadiusBlur:0.5
                               withOverlayRed:0.0
                                        green:0.0
                                         blue:0.0
-                                       alpha:0.7];
+                                       alpha:0.6];
+}
+- (void)awakeFromNib {
+    self.speaker = [[NSSpeechSynthesizer alloc] initWithVoice:nil];
 }
 // Reset the 'Done' Label when a new time is entered
 //- (void)textDidChange:(NSNotification *)aNotification {

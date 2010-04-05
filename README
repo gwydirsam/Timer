@@ -1,0 +1,7 @@
+Title:	    Tea Timer.app
+Purpose:    A simple Tea Timer written in Objective-C to use skills learned from my
+	    Cocoa Book.
+Description:A simple Tea Timer. Accepts Minutes into a text field and alerts the
+	    user when the Timer is done.
+External
+Libraries:  OTSOverlayView (http://bit.ly/djIR1S)

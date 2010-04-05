@@ -15,10 +15,12 @@
     NSTimer *timer;
     NSTimeInterval time;
     IBOutlet OTSOverlayView *overlayView;
+    NSSpeechSynthesizer *speaker;
 }
 @property (assign) IBOutlet NSTextField *timeField;
 @property (assign) IBOutlet NSButton *startButton;
 @property (assign) NSTimeInterval time;
+@property (assign) NSSpeechSynthesizer *speaker;
 @property (nonatomic, retain) NSTimer * timer;
 
 -(IBAction) startTimer:(id)sender;
