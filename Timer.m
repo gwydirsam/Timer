@@ -7,25 +7,33 @@
 //
 
 #import "Timer.h"
-
+#import "MainWindowController.h"
+#import "OTSOverlayView.h"
 
 @implementation Timer
-@synthesize timeField,startButton,done,timer;
+@synthesize timeField,startButton,timer,time;
 
 -(IBAction) startTimer:(id)sender {
-    NSLog(@"Started Timer");
 // Set Time Interval from Text Field
-    NSTimeInterval time = 60 * [self.timeField doubleValue];
+    time = 60 * [self.timeField doubleValue];
 // Set up Timer
     timer = [NSTimer timerWithTimeInterval:(time) target:self selector:@selector(setDone) userInfo:nil repeats:NO];
+    NSLog(@"Started Timer for %f seconds",time);
 // Add Timer to RunLoop and Start it
     [[NSRunLoop mainRunLoop] addTimer: timer forMode: NSDefaultRunLoopMode];
 }
 -(void) setDone {
 // Show User the timer is done
-    [self.done setStringValue:@"Done"];
-    NSLog(@"Finished Timer");
-    NSBeep();
+    NSLog(@"Finished Timer for %f seconds",time);
+// Init Speaker with the default voice
+    NSSpeechSynthesizer *speaker = [[NSSpeechSynthesizer alloc] initWithVoice:nil];
+    [speaker startSpeakingString:@"Tea is Done"];
+    [speaker release];
+    [overlayView displayUsingPixelRadiusBlur:1.0
+                              withOverlayRed:0.0
+                                       green:0.0
+                                        blue:0.0
+                                       alpha:0.7];
 }
 // Reset the 'Done' Label when a new time is entered
 //- (void)textDidChange:(NSNotification *)aNotification {
